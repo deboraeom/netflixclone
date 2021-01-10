@@ -14,3 +14,14 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+function trocar(elemento){
+    alert(elemento.name);
+}
+
+var etapa = new Object();
+etapa.titulo = "O Amor de Deus";
+etapa.urlImg = "style/img/min2.jpg";
+etapa.urlid = 1;
+etapa.descricao =" Deus nos criou por amor";
+
+ retornasrc =()=>{ return "<img src='"}

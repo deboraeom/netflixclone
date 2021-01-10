@@ -1,5 +1,5 @@
 :root{
-    --vermelho: #E50914;
+    --vermelho: #e58609;
     --preta: #141414;
 
 }
@@ -21,10 +21,15 @@ body{
 header .container{
     display:flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+    align-items: flex-start;
+    justify-content: center;
 }
-
+header .containernav{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+}
 header .logo{
     margin: 5px;
     color: var(--vermelho);
@@ -47,19 +52,20 @@ header nav a:hover{
 /*coisa relacionadas ao filme principal*/
 .filme-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('img/cartaz.jpg');
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('img/cartaz1.jpg');
     height: 400px;
     background-size: cover;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: flex-end;
+    align-items: center;
 
 }
 
 .filme-principal .descricao{
-    margin-bottom: 40px;
+    margin-bottom: 2px;
     margin-top: 2px;
+    text-align: center;
 
 }
 .titulo{
@@ -89,12 +95,16 @@ header nav a:hover{
 }
 
 .filme-principal .container{
-    width: 70%;
+    width: 30%;
 }
 
 .box-filme{
-    height: 100%;
-    width: 100%;
+    height: 300px;
+    width: 100px;
     display: block;
 }
 
+.descriptionFolder{
+    text-align: center;
+
+}
