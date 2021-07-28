@@ -1,4 +1,2 @@
-# RecriandoaInterfacedoNetflixDigitalInnocationOne
-# RecriandoaInterfacedoNetflixDigitalInnocationOne
-# deboraeom-RecriandoaInterfacedoNetflixDigitalInnocationOne
+
 "# netflixclone" 
